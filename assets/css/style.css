@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.right-arrow {
+    width: 15px;
+}
+
+/* header */
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+}
+
+.header-link {}
+
+.header-brand {
+    width: 100%;
+    max-height: 40px;
+}
+
+
+/* navigation */
+ul {
+    list-style-type: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.nav-list .list-item {
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-icon {}
+
+.nav-icon .icon-list {
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-icon img {
+    max-width: 30px;
+}
+
+.user img {
+    max-width: 35px;
+}
+
+
+/* list clothers */
+.nav-list .list-item:hover {
+    color: #FF37A5;
+}
+
+
+.nav-list .list-item:hover .male-list {
+    color: #000;
+    display: block;
+}
+
+.blank {
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+
+}
+
+.male-list {
+    display: none;
+}
+
+.list-fashion {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+    padding-top: 20px;
+    display: flex;
+}
+
+.male-menu {
+    font-size: 1rem;
+    line-height: 1.4;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-bottom: 100px;
+    box-shadow:0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.male-menu li {
+    margin-bottom: 15px;
+}
+
+.show-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-list .hot-list {
+    padding: 0 20px;
+    border-right: 2px solid yellow;
+}
+
+.show-list .list-fashion-item li {
+    padding: 0 100px 15px;
+    margin: 0;
+    border-right: 110px solid transparent;
+}
+
+.hot-list li>a {
+    color: #000;
+    font-weight: 700;
+}
+
+.hot-list li>a:hover {
+    color: #FF37A5;
+}
+
+.list-fashion-item li>a {
+    color: #000;
+}
+
+.list-fashion-item li>a:hover {
+    color: #FF37A5;
+}
+
+
+
+.t1, .t2, .t3, .t4 {
+    top: 0;
+    left: 40%;
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    padding-top: 20px;
+    display: none;
+}
+
+.male-shirt:hover .t1 {
+    display: block;
+}
+
+.male-pant:hover .t2 {
+    display: block;
+}
+
+.male-outfit:hover .t3 {
+    display: block;
+}
+
+.male-accessory:hover .t4 {
+    display: block;
+}
+
+.male-img {
+    display: flex;
+}
+
+.male-form {
+    width: 100%;
+    max-width: 150px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    height: 100vh;
+    /* background-color: red; */
+}
